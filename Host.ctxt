@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=Host(java.lang.String)
+comment0.text=\r\n\ Constructor/\r\n\ @param\ m\ MAC\ address\r\n
+comment1.params=s
+comment1.target=void\ setNearestSwitch(Switch)
+comment1.text=\r\n\ Connect\ to\ a\ switch.\r\n\ @param\ s\ The\ switch\ to\ connect\ to.\r\n
+comment2.params=src_addr\ dest_addr\ msg
+comment2.target=void\ receive(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Receives\ a\ message.\r\n\ If\ not\ a\ switch,\ prints\ acknowledgement.\r\n\ @param\ src_addr\ MAC\ address\ of\ sender.\r\n\ @param\ dest_addr\ MAC\ address\ of\ receiver.\r\n\ @param\ msg\ The\ message\ to\ be\ sent.\r\n
+comment3.params=dest_addr\ msg
+comment3.target=void\ send(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Send\ a\ message\ via\ the\ connected\ switch.\r\n\ @param\ dest_addr\ MAC\ address\ of\ receiver.\r\n\ @param\ msg\ Message\ to\ be\ sent.\r\n
+numComments=4

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=Switch(java.lang.String)
+comment0.text=\r\n\ Constructor\r\n\ @param\ m\ the\ MAC\ address\r\n
+comment1.params=h
+comment1.target=int\ addConnection(Host)
+comment1.text=\r\n\ Link\ a\ host\ to\ a\ port\ in\ order\ to\ understand\ incoming\ messages.\r\n\ @param\ h\ The\ host\ to\ be\ connected\ to\ the\ lowest\ unoccupied\ port.\r\n
+comment2.params=src_port\ src_addr\ dest_addr\ msg
+comment2.target=void\ receive(int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Receive\ and\ forward\ messages.\r\n\ @param\ src_port\ The\ port\ from\ which\ the\ message\ entered\ the\ switch.\r\n\ @param\ src_addr\ The\ MAC\ address\ of\ the\ sender.\r\n\ @param\ dest_addr\ The\ MAC\ address\ of\ the\ receiver.\r\n\ @param\ msg\ the\ message\ to\ be\ forwarded.\r\n
+comment3.params=p\ addr
+comment3.target=void\ setPort(int,\ java.lang.String)
+comment3.text=\r\n\ Adds\ a\ host\ and\ its\ port\ for\ this\ switch\ to\ the\ forwarding\ table.\r\n\ @param\ p\ the\ incoming\ port\ index.\r\n\ @param\ addr\ the\ MAC\ address\ of\ the\ host\ to\ be\ added.\r\n
+comment4.params=m
+comment4.target=int\ currPort(java.lang.String)
+comment4.text=\r\n\ Reads\ the\ forwarding\ table\ for\ hosts\ and\ their\ corresponding\ ports\ for\ this\ switch.\r\n
+comment5.params=m
+comment5.target=int\ getSwitchPort(java.lang.String)
+comment5.text=\r\n\ Returns\ the\ ports\ which\ connect\ directly\ to\ other\ switches.\r\n\ @param\ m\ The\ connection\ to\ check\ for\ whether\ it\ is\ a\ switch.\r\n
+comment6.params=
+comment6.target=void\ showAll()
+comment6.text=\r\n\ Prints\ the\ MAC\ addresses\ of\ all\ machines\ connected\ to\ this\ switch.\r\n
+numComments=7
